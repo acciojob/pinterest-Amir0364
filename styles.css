@@ -1,15 +1,26 @@
 /*  your css code here. If applicable */
 #container{
-	display: inline-block;
-	width:200px
+	display: flex;
+	position:relative;
+	justify-content: center;
 	
 	
 }
 #eg1{
-	width:300px;
+	width:50%;
+	height:50%
+	object-fit: cover;
 }
 #eg4{
 	background-color: red;
 	color: white;
 	border: white;
+	margin-left: 140px
+}
+#eg3{
+	margin-left: 50px;
+	text-align: center;
+}
+#eg2{
+	margin-left: 50px
 }
